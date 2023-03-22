@@ -207,6 +207,9 @@
   fill: #dddddd;
   margin-right: 10px;
 }
+.section3 .section3-brands svg:hover {
+  fill: #00b39b;
+}
 .section3 .section3-brands li {
   width: 200px;
   height: 46px;
@@ -234,9 +237,6 @@
 }
 .section3 .section3-brands img:hover {
   filter: grayscale(0%);
-}
-.section3 .section3-brands svg:hover {
-  fill: #00b39b;
 }
 
 .section4 {
@@ -302,7 +302,7 @@
 }
 .section4 .sidebox .minimie {
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 @media (max-width: 600px) {
   .section4 .sidebox .minimie {
@@ -320,7 +320,7 @@
   }
 }
 .section4 .sidebox .lee {
-  margin-left: 10px;
+  margin-left: 50px;
   margin-top: -140px;
 }
 @media (max-width: 600px) {
@@ -332,7 +332,7 @@
 .section4 .sidebox .myCars {
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5 px -1px #1b2734;
   height: 250px;
   width: 230px;
   text-align: center;
@@ -382,6 +382,24 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.section5 .pictures h5 {
+  color: black;
+  font-weight: 900;
+}
+.section5 .pictures .btn {
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: #3d83df;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none !important;
+  transition: all 0.2s ease 0s;
 }
 @media (max-width: 600px) {
   .section5 .pictures {

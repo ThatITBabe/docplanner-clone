@@ -240,6 +240,10 @@ $colorBk: #1b2734;
         svg{
             fill: grayscale(#dddddd);
             margin-right: 10px;
+
+            &:hover{
+                fill: $colorGT;
+            }
         }
         li{
            width: 200px;
@@ -271,9 +275,9 @@ $colorBk: #1b2734;
       .section3-brands img:hover {
           filter: grayscale(0%);
       }
-      .section3-brands svg:hover {
-        fill: $colorGT;
-    }
+    //   .section3-brands svg:hover {
+    //     fill: $colorGT;
+    // }
 }
 
 .section4{
@@ -344,7 +348,7 @@ $colorBk: #1b2734;
 
         .minimie{
             margin-top: 0px;
-            margin-left: 10px;
+            margin-left: 50px;
 
             @media(max-width: 600px){
                 margin: 50px;
@@ -360,7 +364,7 @@ $colorBk: #1b2734;
             }
         }
         .lee{
-            margin-left: 10px;
+            margin-left: 50px;
             margin-top: -140px;
 
             @media(max-width: 600px){
@@ -371,7 +375,7 @@ $colorBk: #1b2734;
         .myCars{
             background: #fff;
             border-radius: 5px;
-            box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+            box-shadow: 0 2px 5 px -1px #1b2734;
             height: 250px;
             width: 230px;
             text-align: center;
@@ -423,6 +427,32 @@ $colorBk: #1b2734;
         justify-content: center;
         align-items: center;
         text-align: center;
+
+        // .dcdcx{
+        //     // display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+
+        // }
+        h5{
+            color: black;
+            font-weight: 900;
+
+        }
+        .btn{
+            vertical-align: middle;
+            position: relative;
+            outline: 0;
+            border: 0;
+            border-radius: 4px;
+            padding: 1.1666666667em 1.5em;
+            background: #3d83df;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none!important;
+            transition: all .2s ease 0s;
+        }
 
         @media(max-width:600px){
             display: inline-flex;
